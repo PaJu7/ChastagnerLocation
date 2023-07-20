@@ -8,12 +8,16 @@
 </head>
 <body>
 	<!-- Bottom left anchor -->
-	<a id="up" href="#mainSentence">up</a>
+	<!-- I admit I didn't really understand how this part worked, but... it does. -->
+	<a id="up" href="#mainSentence">
+		<svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
+		</svg>
+	</a>
 
 	<!-- Main sentence -->
 	<section id="mainSentence">
 		<img id="logo" src="./images/logo.jpg" alt="logo">
-		<img id="url" src="./images/url.png" alt="url">
 		<p>
 			<a href="#1">Nous</a> 
 			<a href="#2">contribuons</a> 
@@ -28,18 +32,27 @@
 
 	<!-- Meaning of the words in the main sentence -->
 	<section class="meaning" id="1">
+		<p class="word">Nous</p>
 		<p>Nous formons une équipe et travaillons ensemble à un objectif commun.</p>
 	</section>
 
 	<section class="meaning" id="2">
-		<p>Nous aidons nos clients en leur fournissant des matériels et des services afin qu’ils réalisent leurs projets. Notre activité économique s'ancre dans les territoires, nous participons par l’impôt et aussi par notre engagement dans l’apprentissage, au développement de ceux-ci.</p>
+		<p class="word">contribuons</p>
+		<p>
+			<ul>
+				<li>Nous aidons nos clients en leur fournissant des matériels et des services afin qu’ils réalisent leurs projets.</li>
+				<li>Notre activité économique s'ancre dans les territoires, nous participons par l’impôt et aussi par notre engagement dans l’apprentissage, au développement de ceux-ci.</li>
+			</ul>
+		</p>
 	</section>
 
 	<section class="meaning" id="3">
+		<p class="word">à bâtir</p>
 		<p>Nous nous adressons principalement aux métiers du bâtiment.</p>
 	</section>
 
 	<section class="meaning" id="4">
+		<p class="word">l'impossible</p>
 		<p>
 			<ul>
 				<li>Les outils et services que nous mettons à disposition de nos clients leur permettent de dépasser leurs limites.</li>
@@ -49,10 +62,12 @@
 	</section>
 
 	<section class="meaning" id="5">
+		<p class="word">à entretenir</p>
 		<p>Le marché de la rénovation est essentiel pour Chastagner, il est porteur pour les années à venir et nous souhaitons nous y renforcer.</p>
 	</section>
 
 	<section class="meaning" id="6">
+		<p class="word">le patrimoine</p>
 		<p>
 			Chastagner Location a soufflé ces 160 bougies en 2022, nous sommes attachés à l'histoire et sommes fiers de contribuer à conserver l’existant, que ce soit :
 			<ul>
@@ -62,8 +77,9 @@
 			</ul>
 		</p>
 	</section>
-	
+
 	<section class="meaning" id="7">
+		<p class="word">tout en protégeant le vivant</p>
 		<p>
 			<ul>
 				<li>Par nature, nos matériels sont dédiés à soulager les travailleurs dans leur tâches de levage et de manutention. En leur mettant  à disposition, nous protégeons nos clients.</li><br>
