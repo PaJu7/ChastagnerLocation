@@ -38,28 +38,47 @@ section{
 ul{
 	text-align: left;
 }
+.word{
+	font-size: 2vw;
+}
 
 /* Images */
 img{
 	position: absolute;
 	width: 200px;
 	top: 0;
-}
-#logo{
 	left: 0;
-}
-#url{
-	right: 0;
 }
 
 /* Up */
 #up{
-	display: block;
 	position: fixed;
-	bottom: 2vw;
-	right: 2vw;
-	padding: 20px;
-	border-radius: 100%;
+    right: 1vw;
+    bottom: 1vw;
+    padding: 20px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 100%;
 	background-color: #202020;
 	box-shadow: #303030 0px 10px 10px;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 600px) {
+#mainSentence{
+	font-size: 5vw;
+}
+.meaning{
+	font-size: 4vw;
+}
+.word{
+	font-size: 4.5vw;
+}
+
+img{
+	width: 100px;
+}
 }
